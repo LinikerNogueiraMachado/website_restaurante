@@ -5,6 +5,11 @@
     --box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
 }
 
+.swiper {
+    width: 900px;
+    height: 600px;
+  }
+
 * {
     font-family: 'Nunito', sans-serif;
     margin: 0;
@@ -169,8 +174,7 @@ header .icons #menu-bars {
 }
 
 /* ====== ====== home ====== ====== */
-
-.home .home-slider .slide {
+.home-slider {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -178,39 +182,21 @@ header .icons #menu-bars {
     padding-top: 9rem;
 }
 
-.home .home-slider .slide .content {
+.content {
     flex: 1 1 45rem;
 }
 
-.home .home-slider .slide .image {
+ .image {
     flex: 1 1 45rem;
 }
 
-.home .home-slider .slide .image img {
+  .image img {
     width: 100%;
 }
 
-.home .home-slider .slide .content span {
+ .content span {
     color: var(--primary-clr);
-    font-size: 2.5rem;
-}
-
-.home .home-slider .slide .content h3 {
-    color: var(--black);
     font-size: 7rem;
-}
-
-.home .home-slider .slide .content p {
-    color: var(--light-clr);
-    font-size: 2.2rem;
-    padding: .5rem 0;
-    line-height: 1.5;
-}
-
-/* ====== ====== Swiper css ====== ====== */
-
-.swiper-pagination-bullet-active {
-    background: var(--primary-clr);
 }
 
 /* ====== ====== responsividade ====== ====== */
@@ -263,7 +249,7 @@ header .icons #menu-bars {
         margin: 0;
     }
 
-    .home .home-slider .slide .content h3 {
+    .content h3 {
         font-size: 5rem;
     }
 }

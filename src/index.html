@@ -7,7 +7,7 @@
         <meta name="Food restaurante" content="website responsivo">
         <title>Food restaurante</title>
         <link rel="stylesheet" href="./index.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     </head>
     <body>
@@ -48,58 +48,41 @@
                 <div class="swiper-wrapper wraper">
                     <div class="swiper-slide slide">
                         <!-- slide start -->
-                        <div class="content">
-                            <span>Nosso prato especial</span>
-                            <h3>Salmão grelhado</h3>
-                            <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam fugiat laborum
-                                exercitationem.
-                            </p>
-                            <a href="#" class="btn">Fazer pedido</a>
+                        <div class="swiper">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                <div class="swiper-slide">
+                                        <div class="content">
+                                            <span>Salmão Grelhado</span>
+                                            <h3>h3</h3>
+                                            <p>paragrafo</p>
+                                            <a href="#" class="btn">Peça Agora!</a>
+                                        </div>
+                                        <div class="image">
+                                            <img src="./assets/img/frutos-do-mar-norte.png" alt="Frutos do mar Norte">
+                                        </div>
+                                </div>
+                                <div class="swiper-slide">Slide 2</div>
+                                <div class="swiper-slide">Slide 3</div>
+                            </div>
+                            <!-- If we need pagination -->
+                            <div class="swiper-pagination"></div>
+                            <!-- If we need navigation buttons -->
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                            <!-- If we need scrollbar -->
+                            <div class="swiper-scrollbar"></div>
                         </div>
-                        <div class="image">
-                            <img src="./assets/img/salmão-grelhado.png" alt="">
-                        </div>
+                        <!-- slide end -->
+                        <div class="swiper-pagination"></div>
                     </div>
-                    <!-- slide end -->
-                    <div class="swiper-slide slide">
-                        <!-- slide start -->
-                        <div class="content">
-                            <span>Nosso prato especial</span>
-                            <h3>Carne fatiada com batatas</h3>
-                            <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam fugiat laborum
-                                exercitationem.
-                            </p>
-                            <a href="#" class="btn">Fazer pedido</a>
-                        </div>
-                        <div class="image">
-                            <img src="./assets/img/carne-fatiada-batata.png" alt="">
-                        </div>
-                    </div>
-                    <!-- slide end -->
-                    <div class="swiper-slide slide">
-                        <!-- slide start -->
-                        <div class="content">
-                            <span>Nosso prato especial</span>
-                            <h3>Frutos do mar do Norte</h3>
-                            <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam fugiat laborum
-                                exercitationem.
-                            </p>
-                            <a href="#" class="btn">Fazer pedido</a>
-                        </div>
-                        <div class="image">
-                            <img src="./assets/img/frutos-do-mar-norte.png" alt="">
-                        </div>
-                    </div>
-                    <!-- slide end -->
-                </div>
-                <div class="swiper-pagination"></div>
-            </div>
-        </section>
-        <!-- home section end -->
-        <script src="./js/scripts.js"></script>
-        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    </body>
-</html>
+                </section>
+                <!-- home section end -->
+                <script src="./js/scripts.js"></script>
+                <script type="module">
+            import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js'
+            const swiper = new Swiper('.swiper')
+                </script>
+            </body>
+        </html>
