@@ -4,9 +4,10 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#000000">
-        <meta name="Food restaurante" content="Site responsivo">
+        <meta name="Food restaurante" content="website responsivo">
         <title>Food restaurante</title>
         <link rel="stylesheet" href="./index.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     </head>
     <body>
@@ -43,23 +44,26 @@
         </form>
         <!-- home section start -->
         <section class="home" id="home">
-            <div class="home-slider">
-                <div class="wraper">
-                    <div class="slide"> <!-- slide start -->
+            <div class="swiper-container home-slider">
+                <div class="swiper-wrapper wraper">
+                    <div class="swiper-slide slide">
+                        <!-- slide start -->
                         <div class="content">
                             <span>Nosso prato especial</span>
-                            <h3>Macarrão picante</h3>
+                            <h3>Salmão grelhado</h3>
                             <p>
                                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam fugiat laborum
                                 exercitationem.
                             </p>
-                            <a href="#" class="btn"></a>
+                            <a href="#" class="btn">Fazer pedido</a>
                         </div>
                         <div class="image">
                             <img src="./assets/img/salmão-grelhado.png" alt="">
                         </div>
-                    </div> <!-- slide end -->
-                    <div class="slide"><!-- slide start -->
+                    </div>
+                    <!-- slide end -->
+                    <div class="swiper-slide slide">
+                        <!-- slide start -->
                         <div class="content">
                             <span>Nosso prato especial</span>
                             <h3>Carne fatiada com batatas</h3>
@@ -67,13 +71,15 @@
                                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam fugiat laborum
                                 exercitationem.
                             </p>
-                            <a href="#" class="btn"></a>
+                            <a href="#" class="btn">Fazer pedido</a>
                         </div>
                         <div class="image">
                             <img src="./assets/img/carne-fatiada-batata.png" alt="">
                         </div>
-                    </div><!-- slide end -->
-                    <div class="slide"><!-- slide start -->
+                    </div>
+                    <!-- slide end -->
+                    <div class="swiper-slide slide">
+                        <!-- slide start -->
                         <div class="content">
                             <span>Nosso prato especial</span>
                             <h3>Frutos do mar do Norte</h3>
@@ -81,16 +87,19 @@
                                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam fugiat laborum
                                 exercitationem.
                             </p>
-                            <a href="#" class="btn"></a>
+                            <a href="#" class="btn">Fazer pedido</a>
                         </div>
                         <div class="image">
                             <img src="./assets/img/frutos-do-mar-norte.png" alt="">
                         </div>
-                    </div><!-- slide end -->
+                    </div>
+                    <!-- slide end -->
                 </div>
+                <div class="swiper-pagination"></div>
             </div>
         </section>
         <!-- home section end -->
         <script src="./js/scripts.js"></script>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     </body>
 </html>
