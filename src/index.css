@@ -165,6 +165,10 @@ header .icons #menu-bars {
     background: none;
 }
 
+.home .home-slider .slide .content h3 {
+    font-size: 5rem;
+}
+
 #search-form #search-box::placeholder {
     color: #eee;
 }
