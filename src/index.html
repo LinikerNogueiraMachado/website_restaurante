@@ -13,12 +13,13 @@
     <body>
         <!-- Header section starts -->
         <header>
+            <img src="./assets/img/logo.png" class="logotype" alt="">
             <a href="#" class="logo">
                 Food Restaurante
             </a>
             <nav class="navbar">
                 <a class="active" href="#home">Home</a>
-                <a href="#pratos">  Pratos</a>
+                <a href="#pratos">  Lanches e salgados</a>
                 <a href="#sobre">   Sobre</a>
                 <a href="#cardápio">Cardápio</a>
                 <a href="#reverja"> Reveja</a>
@@ -63,7 +64,7 @@
                                 <div class="swiper-slide">
                                     <div class="content">
                                         <span>Rolo de Galantine</span>
-                                        <h3>R$22.80 </h3>
+                                        <h3>R$22.80</h3>
                                         <p>paragrafo</p>
                                         <a href="#" class="btn">Peça Agora!</a>
                                     </div>
@@ -95,14 +96,15 @@
                 <!-- home section end -->
                 <!-- heading start-->
                 <section class="pratos" id="pratos">
-                    <h3 class="sub-heading">nossos pratos</h3>
-                    <h1 class="heading">Pratos Populares</h1>
                     <div class="box-container">
+                        <!-- box start-1 -->
                         <div class="box">
+                            <h3 class="sub-heading">Nossos Lanches</h3>
+                            <h1 class="heading">X-Salada com Fritas</h1>
                             <a href="#" class="fas fa-heart"></a>
                             <a href="#" class="fas fa-eye"></a>
-                            <img src="./assets/img/combo-batata-frita.jpg" alt="">
-                            <h3>Lanches rápidos</h3>
+                            <img src="./assets/img/xsalada.png" alt="">
+                            <h3>avaliações</h3>
                             <div class="stars">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -110,12 +112,87 @@
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star-half-alt"></i>
                             </div>
-                            <span>R$9.90</span>
-                            <a href="#" class="btn">Adicionar ao carrinho</a>
+                            <div class="content">
+                                <span>R$9.90</span>
+                                <a href="#" class="btn">Adicionar ao carrinho</a>
+                            </div>
                         </div>
+                        <!-- box end-1 -->
+                        <!-- box start-2 -->
+                        <div class="box">
+                            <h3 class="sub-heading">nossos salgados</h3>
+                            <h1 class="heading">coxinha bolinho de queijo e enroladinho de carne</h1>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                            <img src="./assets/img/coxinha.png" alt="">
+                            <h3>avaliações</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-empty"></i>
+                                <i class="fas fa-star-half-empty"></i>
+                            </div>
+                            <div class="content">
+                                <span>R$9.90</span>
+                                <a href="#" class="btn">Adicionar ao carrinho</a>
+                            </div>
+                        </div>
+                        <!-- box end-2 -->
+                        <!-- box start-3 -->
+                        <div class="box">
+                            <h3 class="sub-heading">nossos salgados</h3>
+                            <h1 class="heading">empadinha esfirra e enroladiho de salsicha</h1>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                            <img src="./assets/img/empadinha.png" alt="">
+                            <h3>Lanches rápidos</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-empty"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <div class="content">
+                                <span>R$9.90</span>
+                                <a href="#" class="btn">Adicionar ao carrinho</a>
+                            </div>
+                        </div>
+                        <!-- box end-3 -->
                     </div>
                 </section>
                 <!-- heading end -->
+                <!-- about section start -->
+                <section class="about" id="about">
+                    <h3 class="sub-heading">sobre nós</h3>
+                    <div class="image">
+                        <img src="./assets/img/logo.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>os melhores pratos, lanches e salgados da região</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Facilis eius doloribus placeat eum adipisci vero cupiditate animi eveniet culpa ipsum!
+                        </p>
+                        <div class="icons-container">
+                            <div class="icons">
+                                <i class="fas fa-shipping-fast"></i>
+                                <span>rapida entrega</span>
+                            </div>
+                            <div class="icons">
+                                <i class="fas fa-dollar-sign "></i>
+                                <span>pagamento facilitado</span>
+                            </div>
+                            <div class="icons">
+                                <i class="fas fa-headset "></i>
+                                <span>atendemos 24 horas por dia</span>
+                            </div>
+                        </div>
+                        <a href="#" class="btn">Saber mais</a>
+                    </div>
+                </section>
+                <!-- about section start -->
                 <script src="./js/scripts.js"></script>
                 <script type="module">
             import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js'
